@@ -1,0 +1,18 @@
+GET http://localhost:3000/persons/
+
+###
+
+GET http://localhost:3000/persons/12
+
+
+###
+
+POST http://localhost:3000/persons/
+
+{
+    "name": "John",
+    "education": "college",
+    "gender": "Male",
+    "experience": "sample experience",
+    "about_me": "sample about me"
+}
