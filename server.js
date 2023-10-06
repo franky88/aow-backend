@@ -3,7 +3,7 @@ const db = require('./database');
 const app = express();
 
 app.get('/', (req, res) => {
-    console.log(db);
+    console.log(db.client);
     res.status(200).json({message:"App is running!"})
 });
 
