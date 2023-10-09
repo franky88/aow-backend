@@ -11,7 +11,7 @@ POST http://localhost:3000/api/persons/
 Content-Type: application/json
 
 {
-    "name": "Frank ramos",
+    "name": "frank ramos",
     "education": "college",
     "gender": "Male",
     "experience": "sample experience",
