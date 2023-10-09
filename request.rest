@@ -1,18 +1,30 @@
-GET http://localhost:3000/persons/
+GET http://localhost:3000/api/persons/
 
 ###
 
-GET http://localhost:3000/persons/12
+GET http://localhost:3000/api/persons/65200c29d75327cdfa6f7544
 
 
 ###
 
-POST http://localhost:3000/persons/
+POST http://localhost:3000/api/persons/
+Content-Type: application/json
 
 {
-    "name": "John",
+    "name": "Frank ramos",
     "education": "college",
     "gender": "Male",
     "experience": "sample experience",
     "about_me": "sample about me"
 }
+
+###
+PATCH http://localhost:3000/api/persons/65200c29d75327cdfa6f7544
+Content-Type: application/json
+
+{
+    "name": "Frank sample"
+}
+
+###
+DELETE  http://localhost:3000/api/persons/65200c29d75327cdfa6f7544
